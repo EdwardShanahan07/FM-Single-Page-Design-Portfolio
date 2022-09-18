@@ -17,3 +17,19 @@
   --Font-Size-Tablet: 1.6rem;
   --Font-Size-Desktop: 1.8rem;
 }
+
+/* Global */
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--Font-Family-Primary);
+}
