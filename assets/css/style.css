@@ -12,6 +12,7 @@
   --Color-Light-Red: #eb7565;
   --Color-Cyan: #61c4b7;
   --Color-Dark-Purple: #552049;
+  --Color-Light-Cream: #fff7f0;
   --Font-Family-Primary: "Plus Jakarta Sans", sans-serif;
   --Font-Size-Mobile: 1.4rem;
   --Font-Size-Tablet: 1.6rem;
@@ -32,4 +33,5 @@ html {
 
 body {
   font-family: var(--Font-Family-Primary);
+  background-color: var(--Color-Light-Cream);
 }
