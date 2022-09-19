@@ -35,3 +35,72 @@ body {
   font-family: var(--Font-Family-Primary);
   background-color: var(--Color-Light-Cream);
 }
+
+/* Buttons */
+
+.btn {
+  color: var(--Color-Light-Cream);
+  font-size: var(--Font-Size-Mobile);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2.8rem;
+  border-radius: 28px;
+  padding: 0.8rem 2.8rem;
+}
+
+.btn--black {
+  background-color: var(--Color-Black);
+}
+
+.btn--black:hover {
+  background-color: var(--Color-Galactic-Blue);
+}
+
+/* Header */
+
+header {
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__logo {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+/* Media Query 768px */
+
+@media (min-width: 768px) {
+  header {
+    margin-bottom: 6.4rem;
+    padding: 3.4rem 4rem;
+  }
+
+  .navbar__logo {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .btn {
+    font-size: var(--Font-Size-Tablet);
+  }
+}
+
+/* Media Query 1440px */
+
+@media (min-width: 1440px) {
+  header {
+    margin-bottom: 6.6rem;
+    padding: 3.4rem 16.5rem;
+  }
+
+  .btn {
+    font-size: var(--Font-Size-Tablet);
+  }
+}
