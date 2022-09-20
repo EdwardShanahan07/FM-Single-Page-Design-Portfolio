@@ -36,6 +36,16 @@ body {
   background-color: var(--Color-Light-Cream);
 }
 
+/* Typeography */
+
+.heading-1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+  margin-bottom: 1.6rem;
+}
+
+/* Components */
+
 /* Buttons */
 
 .btn {
@@ -74,6 +84,22 @@ header {
   height: 4.8rem;
 }
 
+/* Hero */
+
+#section-hero {
+  text-align: center;
+  margin-bottom: 3.2rem;
+  padding: 0 1.6rem;
+}
+
+#section-hero p {
+  color: var(--Color-Medium-Brown);
+  font-size: 1.6rem;
+  line-height: 26px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* Media Query 768px */
 
 @media (min-width: 768px) {
@@ -90,6 +116,20 @@ header {
   .btn {
     font-size: var(--Font-Size-Tablet);
   }
+
+  .heading-1 {
+    font-size: 4.4rem;
+  }
+
+  #section-hero {
+    margin-bottom: 6.4rem;
+    padding: 0 4rem;
+  }
+
+  #section-hero p {
+    font-size: 1.8rem;
+    width: 80%;
+  }
 }
 
 /* Media Query 1440px */
@@ -102,5 +142,19 @@ header {
 
   .btn {
     font-size: var(--Font-Size-Tablet);
+  }
+
+  .heading-1 {
+    font-size: 5.6rem;
+  }
+
+  #section-hero {
+    margin-bottom: 8rem;
+    padding: 0 16.5rem;
+  }
+
+  #section-hero p {
+    font-size: 1.8rem;
+    width: 70%;
   }
 }
