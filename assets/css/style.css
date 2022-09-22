@@ -13,6 +13,7 @@
   --Color-Cyan: #61c4b7;
   --Color-Dark-Purple: #552049;
   --Color-Light-Cream: #fff7f0;
+  --Color-Light-Cream: #ffffff;
   --Font-Family-Primary: "Plus Jakarta Sans", sans-serif;
   --Font-Size-Mobile: 1.4rem;
   --Font-Size-Tablet: 1.6rem;
@@ -42,6 +43,11 @@ body {
   font-size: 3.6rem;
   font-weight: bold;
   margin-bottom: 1.6rem;
+}
+
+.heading-3 {
+  color: #fff;
+  font-size: 2.4rem;
 }
 
 /* Components */
@@ -98,6 +104,52 @@ header {
   line-height: 26px;
   width: 90%;
   margin: 0 auto;
+}
+
+/* Section Skills */
+
+#section-skills {
+  padding: 0 1.6rem;
+}
+
+.skill-pattern {
+  width: 100%;
+  padding: 2.4rem;
+}
+
+.skill-pattern--1 {
+  background-color: var(--Color-Galactic-Blue);
+}
+
+.skill-pattern--2 {
+  background-color: var(--Color-Summer-Yellow);
+}
+
+.skill-pattern--3 {
+  background-color: var(--Color-Pink);
+}
+
+.skill-pattern--4 {
+  background-color: var(--Color-Light-Red);
+}
+
+.skill-pattern--5 {
+  background-color: var(--Color-Cyan);
+}
+
+.skill-pattern--6 {
+  background-color: var(--Color-Dark-Purple);
+}
+
+.skill-pattern-img {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-pattern-heading {
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* Media Query 768px */
