@@ -214,6 +214,10 @@ header {
     padding: 3.4rem 4rem;
   }
 
+  .heading-2 {
+    font-size: 3.2rem;
+  }
+
   .navbar__logo {
     width: 6.4rem;
     height: 6.4rem;
@@ -265,6 +269,16 @@ header {
 
   .skill-pattern--6 {
     grid-column: 3 / 5;
+  }
+
+  #section-about {
+    text-align: left;
+    padding: 0 4rem;
+  }
+
+  .about-img img {
+    width: 364px;
+    height: 364px;
   }
 }
 
@@ -323,5 +337,15 @@ header {
 
   .skill-pattern--6 {
     grid-column: 5 / -1;
+  }
+
+  #section-about {
+    text-align: left;
+    padding: 0 16.5rem;
+  }
+
+  .about-img img {
+    width: 445px;
+    height: 445px;
   }
 }
