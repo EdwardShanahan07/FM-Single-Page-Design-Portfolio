@@ -272,6 +272,9 @@ header {
   }
 
   #section-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
     text-align: left;
     padding: 0 4rem;
   }
@@ -279,6 +282,7 @@ header {
   .about-img img {
     width: 364px;
     height: 364px;
+    margin-left: -130px;
   }
 }
 
@@ -340,6 +344,7 @@ header {
   }
 
   #section-about {
+    gap: 16.5rem;
     text-align: left;
     padding: 0 16.5rem;
   }
@@ -347,5 +352,14 @@ header {
   .about-img img {
     width: 445px;
     height: 445px;
+  }
+
+  .about-img img {
+    justify-content: center;
+    margin-left: 0px;
+  }
+
+  .about-text {
+    align-self: center;
   }
 }
