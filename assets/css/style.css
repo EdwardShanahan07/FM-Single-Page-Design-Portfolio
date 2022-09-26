@@ -225,6 +225,7 @@ header {
 
   .btn {
     font-size: var(--Font-Size-Tablet);
+    padding: 1.4rem 4.5rem;
   }
 
   .heading-1 {
