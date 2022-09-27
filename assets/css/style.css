@@ -67,6 +67,7 @@ body {
   line-height: 2.8rem;
   border-radius: 28px;
   padding: 0.8rem 2.8rem;
+  display: inline-block;
 }
 
 .btn--black {
@@ -244,6 +245,7 @@ header {
 
   #section-skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 12rem;
     padding: 0 4rem;
   }
 
@@ -315,6 +317,7 @@ header {
 
   #section-skills {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 13.6rem;
     padding: 0 16.5rem;
   }
 
@@ -356,7 +359,6 @@ header {
   }
 
   .about-img img {
-    justify-content: center;
     margin-left: 0px;
   }
 
