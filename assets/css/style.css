@@ -51,7 +51,7 @@ body {
 }
 
 .heading-3 {
-  color: #fff;
+  color: var(--Color-Black);
   font-size: 2.4rem;
 }
 
@@ -180,10 +180,15 @@ header {
   justify-content: flex-start;
 }
 
+.skill-pattern-heading .heading-3 {
+  color: var(--Color-Light-Cream);
+}
+
 /* Section About */
 
 #section-about {
   text-align: center;
+  margin-bottom: 10rem;
   padding: 0 1.6rem;
 }
 
@@ -205,6 +210,47 @@ header {
   font-size: var(--Font-Size-Tablet);
   line-height: 26px;
   margin-bottom: 2.4rem;
+}
+
+/* Section Work */
+
+#section-work {
+  text-align: center;
+  margin-bottom: 8.8rem;
+  padding: 0 1.6rem;
+}
+
+#section-work .heading-3 {
+  margin-bottom: 5.6rem;
+}
+
+.work-slides {
+  margin-bottom: 5.6rem;
+}
+
+.work-slide img {
+  width: 100%;
+}
+
+.work-btns {
+  display: flex;
+  justify-content: center;
+}
+
+.work-btn {
+  display: flex;
+  background-color: var(--Color-Black);
+  border-radius: 100%;
+  padding: 2.4rem 2.5rem;
+  cursor: pointer;
+}
+
+.work-btn:hover {
+  background-color: var(--Color-Galactic-Blue);
+}
+
+.work-btn--left {
+  margin-right: 1.6rem;
 }
 
 /* Media Query 768px */
@@ -279,6 +325,7 @@ header {
     grid-template-columns: 1fr 1fr;
     gap: 2.4rem;
     text-align: left;
+    margin-bottom: 12rem;
     padding: 0 4rem;
   }
 
@@ -286,6 +333,10 @@ header {
     width: 364px;
     height: 364px;
     margin-left: -130px;
+  }
+
+  #section-work {
+    padding: 0 4rem;
   }
 }
 
@@ -350,6 +401,7 @@ header {
   #section-about {
     gap: 16.5rem;
     text-align: left;
+    margin-bottom: 8.8rem;
     padding: 0 16.5rem;
   }
 
@@ -364,5 +416,9 @@ header {
 
   .about-text {
     align-self: center;
+  }
+
+  #section-work {
+    padding: 0 16.5rem;
   }
 }
