@@ -225,7 +225,13 @@ header {
 }
 
 .slider {
+  display: flex;
+  position: relative;
   margin-bottom: 5.6rem;
+}
+
+.slide {
+  position: absolute;
 }
 
 .slide img {
