@@ -1,0 +1,27 @@
+{
+  "name": "single-page-design-portfolio",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single-page design portfolio coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./src/index.scss ./dist/assets/css/style.css",
+    "server": "live-server dist/",
+    "dev": "npm-run-all sass server --parallel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdwardShanahan07/FM-Single-Page-Design-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdwardShanahan07/FM-Single-Page-Design-Portfolio/issues"
+  },
+  "homepage": "https://github.com/EdwardShanahan07/FM-Single-Page-Design-Portfolio#readme",
+  "dependencies": {
+    "live-server": "^1.2.2",
+    "node-sass": "^7.0.3",
+    "npm-run-all": "^4.1.5"
+  }
+}
