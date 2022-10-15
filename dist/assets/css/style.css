@@ -1,6 +1,4 @@
-/* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
-/* Variables */
 :root {
   --Color-Black: #030303;
   --Color-Medium-Brown: #7a746e;
@@ -17,7 +15,6 @@
   --Font-Size-Tablet: 1.6rem;
   --Font-Size-Desktop: 1.8rem; }
 
-/* Global */
 html {
   font-size: 62.5%; }
 
@@ -30,7 +27,6 @@ body {
   font-family: var(--Font-Family-Primary);
   background-color: var(--Color-Light-Cream); }
 
-/* Typeography */
 .heading-1 {
   font-size: 3.6rem;
   font-weight: bold;
@@ -44,8 +40,6 @@ body {
   color: var(--Color-Black);
   font-size: 2.4rem; }
 
-/* Components */
-/* Buttons */
 .btn {
   color: var(--Color-Light-Cream);
   font-size: var(--Font-Size-Mobile);
@@ -68,7 +62,6 @@ body {
 .btn--orange:hover {
   background-color: var(--Color-Summer-Yellow); }
 
-/* Header */
 header {
   margin-bottom: 3.2rem;
   padding: 1.6rem; }
@@ -82,7 +75,6 @@ header {
   width: 4.8rem;
   height: 4.8rem; }
 
-/* Hero */
 #section-hero {
   text-align: center;
   margin-bottom: 3.2rem;
@@ -95,7 +87,6 @@ header {
   width: 90%;
   margin: 0 auto; }
 
-/* Section Skills */
 #section-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -146,7 +137,6 @@ header {
 .skill-pattern-heading .heading-3 {
   color: var(--Color-Light-Cream); }
 
-/* Section About */
 #section-about {
   text-align: center;
   margin-bottom: 10rem;
@@ -168,7 +158,6 @@ header {
   line-height: 26px;
   margin-bottom: 2.4rem; }
 
-/* Section Work */
 #section-work {
   text-align: center;
   margin-bottom: 8.8rem;
@@ -205,7 +194,6 @@ header {
 .work-btn--left {
   margin-right: 1.6rem; }
 
-/* Media Query 768px */
 @media (min-width: 768px) {
   header {
     margin-bottom: 6.4rem;

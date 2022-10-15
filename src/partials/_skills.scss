@@ -1,0 +1,61 @@
+#section-skills {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 1.6rem;
+  margin-bottom: 10rem;
+  gap: 2.4rem;
+}
+
+.skill-pattern {
+  width: 100%;
+  padding: 2.4rem;
+}
+
+.skill-pattern--1 {
+  background-color: var(--Color-Galactic-Blue);
+  grid-column: 1 / -1;
+}
+
+.skill-pattern--2 {
+  background-color: var(--Color-Summer-Yellow);
+  grid-column: 1 / 2;
+}
+
+.skill-pattern--3 {
+  background-color: var(--Color-Pink);
+  grid-column: 2 / -1;
+}
+
+.skill-pattern--4 {
+  background-color: var(--Color-Light-Red);
+  grid-column: 1 / -1;
+}
+
+.skill-pattern--5 {
+  background-color: var(--Color-Cyan);
+  grid-column: 1 / -1;
+}
+
+.skill-pattern--6 {
+  background-color: var(--Color-Dark-Purple);
+  grid-column: 1 / -1;
+}
+
+.skill-pattern--1 .skill-pattern-img {
+  margin-bottom: 9.4rem;
+}
+
+.skill-pattern-img {
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.skill-pattern-heading {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.skill-pattern-heading .heading-3 {
+  color: var(--Color-Light-Cream);
+}

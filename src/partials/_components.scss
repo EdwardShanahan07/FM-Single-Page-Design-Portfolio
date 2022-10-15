@@ -1,0 +1,26 @@
+.btn {
+  color: var(--Color-Light-Cream);
+  font-size: var(--Font-Size-Mobile);
+  font-weight: bold;
+  text-decoration: none;
+  line-height: 2.8rem;
+  border-radius: 28px;
+  padding: 0.8rem 2.8rem;
+  display: inline-block;
+}
+
+.btn--black {
+  background-color: var(--Color-Black);
+}
+
+.btn--black:hover {
+  background-color: var(--Color-Galactic-Blue);
+}
+
+.btn--orange {
+  background-color: var(--Color-Light-Red);
+}
+
+.btn--orange:hover {
+  background-color: var(--Color-Summer-Yellow);
+}
