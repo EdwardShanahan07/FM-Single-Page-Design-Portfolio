@@ -29,14 +29,14 @@
 
 .work-btn {
   display: flex;
-  background-color: var(--Color-Black);
+  background-color: Color-Black;
   border-radius: 100%;
   padding: 2.4rem 2.5rem;
   cursor: pointer;
 }
 
 .work-btn:hover {
-  background-color: var(--Color-Galactic-Blue);
+  background-color: Color-Galactic-Blue;
 }
 
 .work-btn--left {

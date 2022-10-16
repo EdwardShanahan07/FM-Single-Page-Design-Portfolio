@@ -1,6 +1,6 @@
 .btn {
-  color: var(--Color-Light-Cream);
-  font-size: var(--Font-Size-Mobile);
+  color: $Color-Light-Cream;
+  font-size: Font-Size-Mobile;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.8rem;
@@ -10,17 +10,17 @@
 }
 
 .btn--black {
-  background-color: var(--Color-Black);
+  background-color: $Color-Black;
 }
 
 .btn--black:hover {
-  background-color: var(--Color-Galactic-Blue);
+  background-color: $Color-Galactic-Blue;
 }
 
 .btn--orange {
-  background-color: var(--Color-Light-Red);
+  background-color: $Color-Light-Red;
 }
 
 .btn--orange:hover {
-  background-color: var(--Color-Summer-Yellow);
+  background-color: $Color-Summer-Yellow;
 }

@@ -1,20 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700&display=swap");
-:root {
-  --Color-Black: #030303;
-  --Color-Medium-Brown: #7a746e;
-  --Color-Galactic-Blue: #755cde;
-  --Color-Summer-Yellow: #f6a560;
-  --Color-Pink: #f39e9e;
-  --Color-Light-Red: #eb7565;
-  --Color-Cyan: #61c4b7;
-  --Color-Dark-Purple: #552049;
-  --Color-Light-Cream: #fff7f0;
-  --Color-Light-Cream: #ffffff;
-  --Font-Family-Primary: "Plus Jakarta Sans", sans-serif;
-  --Font-Size-Mobile: 1.4rem;
-  --Font-Size-Tablet: 1.6rem;
-  --Font-Size-Desktop: 1.8rem; }
-
 html {
   font-size: 62.5%; }
 
@@ -24,8 +8,8 @@ html {
   box-sizing: border-box; }
 
 body {
-  font-family: var(--Font-Family-Primary);
-  background-color: var(--Color-Light-Cream); }
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #ffffff; }
 
 .heading-1 {
   font-size: 3.6rem;
@@ -37,12 +21,12 @@ body {
   margin-bottom: 2.4rem; }
 
 .heading-3 {
-  color: var(--Color-Black);
+  color: #030303;
   font-size: 2.4rem; }
 
 .btn {
-  color: var(--Color-Light-Cream);
-  font-size: var(--Font-Size-Mobile);
+  color: #ffffff;
+  font-size: Font-Size-Mobile;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.8rem;
@@ -51,16 +35,16 @@ body {
   display: inline-block; }
 
 .btn--black {
-  background-color: var(--Color-Black); }
+  background-color: #030303; }
 
 .btn--black:hover {
-  background-color: var(--Color-Galactic-Blue); }
+  background-color: #755cde; }
 
 .btn--orange {
-  background-color: var(--Color-Light-Red); }
+  background-color: #eb7565; }
 
 .btn--orange:hover {
-  background-color: var(--Color-Summer-Yellow); }
+  background-color: #f6a560; }
 
 header {
   margin-bottom: 3.2rem;
@@ -81,7 +65,7 @@ header {
   padding: 0 1.6rem; }
 
 #section-hero p {
-  color: var(--Color-Medium-Brown);
+  color: #7a746e;
   font-size: 1.6rem;
   line-height: 26px;
   width: 90%;
@@ -99,27 +83,27 @@ header {
   padding: 2.4rem; }
 
 .skill-pattern--1 {
-  background-color: var(--Color-Galactic-Blue);
+  background-color: #755cde;
   grid-column: 1 / -1; }
 
 .skill-pattern--2 {
-  background-color: var(--Color-Summer-Yellow);
+  background-color: #f6a560;
   grid-column: 1 / 2; }
 
 .skill-pattern--3 {
-  background-color: var(--Color-Pink);
+  background-color: #f39e9e;
   grid-column: 2 / -1; }
 
 .skill-pattern--4 {
-  background-color: var(--Color-Light-Red);
+  background-color: #eb7565;
   grid-column: 1 / -1; }
 
 .skill-pattern--5 {
-  background-color: var(--Color-Cyan);
+  background-color: #61c4b7;
   grid-column: 1 / -1; }
 
 .skill-pattern--6 {
-  background-color: var(--Color-Dark-Purple);
+  background-color: #552049;
   grid-column: 1 / -1; }
 
 .skill-pattern--1 .skill-pattern-img {
@@ -135,7 +119,7 @@ header {
   justify-content: flex-start; }
 
 .skill-pattern-heading .heading-3 {
-  color: var(--Color-Light-Cream); }
+  color: #ffffff; }
 
 #section-about {
   text-align: center;
@@ -153,8 +137,8 @@ header {
   margin-bottom: 24px; }
 
 .about-text p {
-  color: var(--Color-Medium-Brown);
-  font-size: var(--Font-Size-Tablet);
+  color: #7a746e;
+  font-size: 1.6rem;
   line-height: 26px;
   margin-bottom: 2.4rem; }
 
@@ -183,13 +167,13 @@ header {
 
 .work-btn {
   display: flex;
-  background-color: var(--Color-Black);
+  background-color: Color-Black;
   border-radius: 100%;
   padding: 2.4rem 2.5rem;
   cursor: pointer; }
 
 .work-btn:hover {
-  background-color: var(--Color-Galactic-Blue); }
+  background-color: Color-Galactic-Blue; }
 
 .work-btn--left {
   margin-right: 1.6rem; }
