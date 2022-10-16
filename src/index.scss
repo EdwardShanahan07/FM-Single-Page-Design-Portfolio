@@ -1,5 +1,6 @@
 @import "./partials/imports";
 @import "./partials/variables";
+@import "./partials/mixins";
 @import "./partials/global";
 @import "./partials/typeography";
 @import "./partials/components";
@@ -12,7 +13,6 @@
 @media (min-width: 768px) {
   header {
     margin-bottom: 6.4rem;
-    padding: 3.4rem 4rem;
   }
 
   .heading-2 {
@@ -35,7 +35,6 @@
 
   #section-hero {
     margin-bottom: 6.4rem;
-    padding: 0 4rem;
   }
 
   #section-hero p {
@@ -46,7 +45,6 @@
   #section-skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 12rem;
-    padding: 0 4rem;
   }
 
   .skill-pattern--1 {
@@ -80,7 +78,6 @@
     gap: 2.4rem;
     text-align: left;
     margin-bottom: 12rem;
-    padding: 0 4rem;
   }
 
   .about-img img {
@@ -90,7 +87,6 @@
   }
 
   #section-work {
-    padding: 0 4rem;
   }
 }
 
@@ -99,7 +95,6 @@
 @media (min-width: 1440px) {
   header {
     margin-bottom: 6.6rem;
-    padding: 3.4rem 16.5rem;
   }
 
   .btn {
@@ -112,7 +107,6 @@
 
   #section-hero {
     margin-bottom: 8rem;
-    padding: 0 16.5rem;
   }
 
   #section-hero p {
@@ -123,7 +117,6 @@
   #section-skills {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     margin-bottom: 13.6rem;
-    padding: 0 16.5rem;
   }
 
   .skill-pattern--1 {
@@ -156,7 +149,6 @@
     gap: 16.5rem;
     text-align: left;
     margin-bottom: 8.8rem;
-    padding: 0 16.5rem;
   }
 
   .about-img img {
@@ -173,6 +165,5 @@
   }
 
   #section-work {
-    padding: 0 16.5rem;
   }
 }

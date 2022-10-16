@@ -11,4 +11,13 @@ html {
 body {
   font-family: $Font-Family-Primary;
   background-color: $Color-Light-Cream;
+  padding: 1.6rem;
+
+  @include responsive-tablet {
+    padding: 3.4rem 4rem;
+  }
+
+  @include responsive-desktop {
+    padding: 3.4rem 16.5rem;
+  }
 }

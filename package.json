@@ -4,7 +4,7 @@
   "description": "![Design preview for the Single-page design portfolio coding challenge](./preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass ./src/index.scss ./dist/assets/css/style.css",
+    "sass": "node-sass ./src/index.scss ./dist/assets/css/style.css --watch",
     "server": "live-server dist/",
     "dev": "npm-run-all sass server --parallel"
   },
