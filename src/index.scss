@@ -11,22 +11,8 @@
 @import "./partials/work";
 
 @media (min-width: 768px) {
-  header {
-    margin-bottom: 6.4rem;
-  }
-
   .heading-2 {
     font-size: 3.2rem;
-  }
-
-  .navbar__logo {
-    width: 6.4rem;
-    height: 6.4rem;
-  }
-
-  .btn {
-    font-size: var(--Font-Size-Tablet);
-    padding: 1.4rem 4.5rem;
   }
 
   .heading-1 {
@@ -95,10 +81,6 @@
 @media (min-width: 1440px) {
   header {
     margin-bottom: 6.6rem;
-  }
-
-  .btn {
-    font-size: var(--Font-Size-Tablet);
   }
 
   .heading-1 {

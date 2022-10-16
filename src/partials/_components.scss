@@ -1,26 +1,31 @@
 .btn {
   color: $Color-Light-Cream;
-  font-size: Font-Size-Mobile;
+  font-size: $Font-Size-Mobile;
   font-weight: bold;
   text-decoration: none;
   line-height: 2.8rem;
   border-radius: 28px;
   padding: 0.8rem 2.8rem;
   display: inline-block;
-}
 
-.btn--black {
-  background-color: $Color-Black;
-}
+  @include responsive-tablet {
+    font-size: $Font-Size-Tablet;
+    padding: 1.4rem 4.5rem;
+  }
 
-.btn--black:hover {
-  background-color: $Color-Galactic-Blue;
-}
+  &--black {
+    background-color: $Color-Black;
 
-.btn--orange {
-  background-color: $Color-Light-Red;
-}
+    &:hover {
+      background-color: $Color-Galactic-Blue;
+    }
+  }
 
-.btn--orange:hover {
-  background-color: $Color-Summer-Yellow;
+  &--orange {
+    background-color: $Color-Light-Red;
+
+    &:hover {
+      background-color: $Color-Summer-Yellow;
+    }
+  }
 }
