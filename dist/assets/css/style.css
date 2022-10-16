@@ -33,6 +33,13 @@ body {
 .heading-2 {
   font-size: 2.6rem;
   margin-bottom: 2.4rem; }
+  @media (min-width: 768px) {
+    .heading-2 {
+      font-size: 2.6rem; } }
+  @media (min-width: 1440px) {
+    .heading-2 {
+      font-size: 4rem;
+      margin-bottom: 3.4rem; } }
 
 .heading-3 {
   color: #030303;
@@ -191,22 +198,48 @@ header {
   text-align: center;
   margin-bottom: 10rem;
   padding: 0 1.6rem; }
+  @media (min-width: 768px) {
+    #section-about {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.4rem;
+      text-align: left;
+      margin-bottom: 12rem; } }
+  @media (min-width: 1440px) {
+    #section-about {
+      gap: 16.5rem;
+      text-align: left;
+      margin-bottom: 8.8rem; } }
 
 .about-img {
   margin: 0 auto 4rem auto; }
-
-.about-img img {
-  width: 300px;
-  height: 300px; }
+  .about-img img {
+    width: 300px;
+    height: 300px; }
+    @media (min-width: 768px) {
+      .about-img img {
+        width: 364px;
+        height: 364px;
+        margin-left: -150px; } }
+    @media (min-width: 1440px) {
+      .about-img img {
+        width: 445px;
+        height: 445px;
+        margin-left: 0px; } }
 
 .about-text {
   margin-bottom: 24px; }
-
-.about-text p {
-  color: #7a746e;
-  font-size: 1.6rem;
-  line-height: 26px;
-  margin-bottom: 2.4rem; }
+  @media (min-width: 1440px) {
+    .about-text {
+      align-self: center; } }
+  .about-text p {
+    color: #7a746e;
+    font-size: 1.6rem;
+    line-height: 26px;
+    margin-bottom: 2.4rem; }
+    @media (min-width: 1440px) {
+      .about-text p {
+        margin-bottom: 3.2rem; } }
 
 #section-work {
   text-align: center;
@@ -242,33 +275,3 @@ header {
 
 .work-btn--left {
   margin-right: 1.6rem; }
-
-@media (min-width: 768px) {
-  .heading-2 {
-    font-size: 3.2rem; }
-  .heading-1 {
-    font-size: 4.4rem; }
-  #section-about {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2.4rem;
-    text-align: left;
-    margin-bottom: 12rem; }
-  .about-img img {
-    width: 364px;
-    height: 364px;
-    margin-left: -130px; } }
-
-/* Media Query 1440px */
-@media (min-width: 1440px) {
-  #section-about {
-    gap: 16.5rem;
-    text-align: left;
-    margin-bottom: 8.8rem; }
-  .about-img img {
-    width: 445px;
-    height: 445px; }
-  .about-img img {
-    margin-left: 0px; }
-  .about-text {
-    align-self: center; } }

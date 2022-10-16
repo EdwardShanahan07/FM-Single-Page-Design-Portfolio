@@ -2,24 +2,60 @@
   text-align: center;
   margin-bottom: 10rem;
   padding: 0 1.6rem;
+
+  @include responsive-tablet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+    text-align: left;
+    margin-bottom: 12rem;
+  }
+
+  @include responsive-desktop {
+    gap: 16.5rem;
+    text-align: left;
+    margin-bottom: 8.8rem;
+  }
 }
 
-.about-img {
-  margin: 0 auto 4rem auto;
-}
+.about {
+  &-img {
+    margin: 0 auto 4rem auto;
 
-.about-img img {
-  width: 300px;
-  height: 300px;
-}
+    & img {
+      width: 300px;
+      height: 300px;
 
-.about-text {
-  margin-bottom: 24px;
-}
+      @include responsive-tablet {
+        width: 364px;
+        height: 364px;
+        margin-left: -150px;
+      }
 
-.about-text p {
-  color: $Color-Medium-Brown;
-  font-size: $Font-Size-Tablet;
-  line-height: 26px;
-  margin-bottom: 2.4rem;
+      @include responsive-desktop {
+        width: 445px;
+        height: 445px;
+        margin-left: 0px;
+      }
+    }
+  }
+
+  &-text {
+    margin-bottom: 24px;
+
+    @include responsive-desktop {
+      align-self: center;
+    }
+
+    & p {
+      color: $Color-Medium-Brown;
+      font-size: $Font-Size-Tablet;
+      line-height: 26px;
+      margin-bottom: 2.4rem;
+
+      @include responsive-desktop {
+        margin-bottom: 3.2rem;
+      }
+    }
+  }
 }
