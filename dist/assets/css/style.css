@@ -22,6 +22,13 @@ body {
   font-size: 3.6rem;
   font-weight: bold;
   margin-bottom: 1.6rem; }
+  @media (min-width: 768px) {
+    .heading-1 {
+      font-size: 4.4rem;
+      margin-bottom: 2.3rem; } }
+  @media (min-width: 1440px) {
+    .heading-1 {
+      font-size: 5.6rem; } }
 
 .heading-2 {
   font-size: 2.6rem;
@@ -73,13 +80,18 @@ header {
 #section-hero {
   text-align: center;
   margin-bottom: 3.2rem; }
-
-#section-hero p {
-  color: #7a746e;
-  font-size: 1.6rem;
-  line-height: 26px;
-  width: 90%;
-  margin: 0 auto; }
+  @media (min-width: 768px) {
+    #section-hero {
+      margin-bottom: 6.4rem; } }
+  @media (min-width: 1440px) {
+    #section-hero {
+      margin-bottom: 8rem; } }
+  #section-hero p {
+    color: #7a746e;
+    font-size: 1.6rem;
+    line-height: 26px;
+    width: 90%;
+    margin: 0 auto; }
 
 #section-skills {
   display: grid;
@@ -191,8 +203,6 @@ header {
     font-size: 3.2rem; }
   .heading-1 {
     font-size: 4.4rem; }
-  #section-hero {
-    margin-bottom: 6.4rem; }
   #section-hero p {
     font-size: 1.8rem;
     width: 80%; }
@@ -225,12 +235,6 @@ header {
 
 /* Media Query 1440px */
 @media (min-width: 1440px) {
-  header {
-    margin-bottom: 6.6rem; }
-  .heading-1 {
-    font-size: 5.6rem; }
-  #section-hero {
-    margin-bottom: 8rem; }
   #section-hero p {
     font-size: 1.8rem;
     width: 70%; }

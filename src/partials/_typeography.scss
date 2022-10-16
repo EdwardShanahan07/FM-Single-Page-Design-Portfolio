@@ -2,6 +2,15 @@
   font-size: 3.6rem;
   font-weight: bold;
   margin-bottom: 1.6rem;
+
+  @include responsive-tablet {
+    font-size: 4.4rem;
+    margin-bottom: 2.3rem;
+  }
+
+  @include responsive-desktop {
+    font-size: 5.6rem;
+  }
 }
 
 .heading-2 {
