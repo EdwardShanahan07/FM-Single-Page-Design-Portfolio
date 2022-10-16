@@ -1,61 +1,122 @@
 #section-skills {
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  margin-bottom: 10rem;
   gap: 2.4rem;
+  margin-bottom: 10rem;
+
+  @include responsive-tablet {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 10.2rem;
+  }
+
+  @include responsive-desktop {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-bottom: 13.6rem;
+  }
 }
 
 .skill-pattern {
   width: 100%;
   padding: 2.4rem;
-}
 
-.skill-pattern--1 {
-  background-color: $Color-Galactic-Blue;
-  grid-column: 1 / -1;
-}
+  &--1 {
+    background-color: $Color-Galactic-Blue;
+    grid-column: 1 / -1;
 
-.skill-pattern--2 {
-  background-color: $Color-Summer-Yellow;
-  grid-column: 1 / 2;
-}
+    @include responsive-tablet {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
 
-.skill-pattern--3 {
-  background-color: $Color-Pink;
-  grid-column: 2 / -1;
-}
+    @include responsive-desktop {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3;
+    }
 
-.skill-pattern--4 {
-  background-color: $Color-Light-Red;
-  grid-column: 1 / -1;
-}
+    & img {
+      margin-bottom: 9.4rem;
+    }
+  }
 
-.skill-pattern--5 {
-  background-color: $Color-Cyan;
-  grid-column: 1 / -1;
-}
+  &--2 {
+    background-color: $Color-Summer-Yellow;
+    grid-column: 1 / 2;
 
-.skill-pattern--6 {
-  background-color: $Color-Dark-Purple;
-  grid-column: 1 / -1;
-}
+    @include responsive-tablet {
+      grid-column: 3 / 4;
+    }
 
-.skill-pattern--1 .skill-pattern-img {
-  margin-bottom: 9.4rem;
-}
+    @include responsive-desktop {
+      grid-column: 3 / 4;
+    }
+  }
 
-.skill-pattern-img {
-  margin-bottom: 4rem;
-  display: flex;
-  justify-content: flex-end;
-}
+  &--3 {
+    background-color: $Color-Pink;
+    grid-column: 2 / -1;
 
-.skill-pattern-heading {
-  display: flex;
-  justify-content: flex-start;
-}
+    @include responsive-tablet {
+      grid-column: 4 / 5;
+    }
 
-.skill-pattern-heading .heading-3 {
-  color: $Color-Light-Cream;
+    @include responsive-desktop {
+      grid-column: 4 / 5;
+    }
+  }
+
+  &--4 {
+    background-color: $Color-Light-Red;
+    grid-column: 1 / -1;
+
+    @include responsive-tablet {
+      grid-column: 3 / -1;
+    }
+
+    @include responsive-desktop {
+      grid-column: 3 / 5;
+    }
+  }
+
+  &--5 {
+    background-color: $Color-Cyan;
+    grid-column: 1 / -1;
+
+    @include responsive-tablet {
+      grid-column: 1 / 3;
+    }
+
+    @include responsive-desktop {
+      grid-column: 5 / -1;
+      grid-row-start: 1;
+    }
+  }
+
+  &--6 {
+    background-color: $Color-Dark-Purple;
+    grid-column: 1 / -1;
+
+    @include responsive-tablet {
+      grid-column: 3 / 5;
+    }
+
+    @include responsive-desktop {
+      grid-column: 5 / -1;
+    }
+  }
+
+  &-img {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &-heading {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  &-heading .heading-3 {
+    color: $Color-White;
+    font-size: 2.4rem;
+  }
 }
