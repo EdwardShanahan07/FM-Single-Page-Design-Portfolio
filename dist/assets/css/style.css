@@ -237,38 +237,3 @@ header {
       .about-text p {
         margin-bottom: 3.2rem;
         font-size: 1.8rem; } }
-
-#section-work {
-  text-align: center;
-  margin-bottom: 8.8rem; }
-
-#section-work .heading-3 {
-  margin-bottom: 5.6rem; }
-
-.slider {
-  display: flex;
-  position: relative;
-  margin-bottom: 5.6rem; }
-
-.slide {
-  position: absolute; }
-
-.slide img {
-  width: 100%; }
-
-.work-btns {
-  display: flex;
-  justify-content: center; }
-
-.work-btn {
-  display: flex;
-  background-color: Color-Black;
-  border-radius: 100%;
-  padding: 2.4rem 2.5rem;
-  cursor: pointer; }
-
-.work-btn:hover {
-  background-color: Color-Galactic-Blue; }
-
-.work-btn--left {
-  margin-right: 1.6rem; }
