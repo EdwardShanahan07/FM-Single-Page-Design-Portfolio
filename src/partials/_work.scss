@@ -1,0 +1,35 @@
+#section-work {
+  text-align: center;
+}
+.slider {
+  margin-bottom: 3.2rem;
+
+  @include responsive-tablet {
+    margin-bottom: 5.6rem;
+  }
+
+  &__slide img {
+    width: 100%;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__btn {
+    background-color: $Color-Black;
+    border-radius: 100%;
+    padding: 2.5rem;
+    cursor: pointer;
+
+    &:hover {
+      background-color: $Color-Galactic-Blue;
+    }
+
+    &--prev {
+      margin-right: 1.6rem;
+    }
+  }
+}
